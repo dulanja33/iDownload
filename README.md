@@ -1,4 +1,9 @@
+
 ## **iDownload**
+
+ - CLI based download manager for http and ftp file URLs. 
+ - Multi-connection download is support for partial request support
+   URLs.
 
 #### **Compile**
 `./gradlew bootjar`
@@ -14,7 +19,7 @@ Minimum usage for FTP
 `java -jar build/libs/iDownload-0.0.1.jar --url <url> --path <path> --user <user name> --pass <password>
 `
 
-Manually decide number of connections to download via http (_servers supporting partial request only_)
+**Manually decide number of connections to download via http (_servers supporting partial request only_)**
 
 If not given number of connection will be decided from file size.
 
@@ -28,7 +33,7 @@ Help menu
 
 #### **Demo**
 
-demo video is inside documentation folder.
+Demo video is inside documentation folder.
 
 
 #### **Run Unit Tests**
